@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - The Veldt Website</title>
+    <style>
+        /* Styles remain the same as previous code */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Veldt by Ray Bradbury</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="analysis.html">Analysis</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>Contact Us</h2>
+        <p>Have a question or feedback? Feel free to get in touch with us using the form below:</p>
+        <form action="submit_contact_form.php" method="POST">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 The Veldt Website</p>
+    </footer>
+</body>
+</html>
+
